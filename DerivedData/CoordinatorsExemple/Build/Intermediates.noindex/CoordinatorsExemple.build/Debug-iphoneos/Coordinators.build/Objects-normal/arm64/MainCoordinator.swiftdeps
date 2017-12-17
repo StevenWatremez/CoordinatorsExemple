@@ -1,0 +1,155 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MainCoordinator"
+provides-nominal:
+- "12Coordinators15MainCoordinatorC"
+provides-member:
+- ["12Coordinators15MainCoordinatorC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Coordinator"
+- "MainCoordinator"
+- "NavCoordinator"
+- !private "TabsCoordinator"
+- !private "UITabBarController"
+- "UIViewController"
+depends-member:
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "setViewControllers"]
+- !private ["12Coordinators11CoordinatorP", "TabsCoordinator"]
+- !private ["12Coordinators11CoordinatorP", "UITabBarController"]
+- ["12Coordinators11CoordinatorP", "childCoordinators"]
+- !private ["12Coordinators11CoordinatorP", "init"]
+- ["12Coordinators11CoordinatorP", "mainViewController"]
+- ["12Coordinators11CoordinatorP", "navigationController"]
+- ["12Coordinators11CoordinatorP", "popChildCoordinator"]
+- ["12Coordinators11CoordinatorP", "push"]
+- !private ["12Coordinators11CoordinatorP", "setupTabBar"]
+- ["12Coordinators11CoordinatorP", "start"]
+- ["12Coordinators11CoordinatorP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "setViewControllers"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "setViewControllers"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "setViewControllers"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "setViewControllers"]
+- ["12Coordinators15MainCoordinatorC", "Coordinator"]
+- !private ["12Coordinators15MainCoordinatorC", "TabsCoordinator"]
+- !private ["12Coordinators15MainCoordinatorC", "UITabBarController"]
+- ["12Coordinators15MainCoordinatorC", "UIViewController"]
+- ["12Coordinators15MainCoordinatorC", "childCoordinators"]
+- ["12Coordinators15MainCoordinatorC", "deinit"]
+- ["12Coordinators15MainCoordinatorC", "init"]
+- ["12Coordinators15MainCoordinatorC", "mainViewController"]
+- ["12Coordinators15MainCoordinatorC", "navigationController"]
+- ["12Coordinators15MainCoordinatorC", "popChildCoordinator"]
+- ["12Coordinators15MainCoordinatorC", "push"]
+- !private ["12Coordinators15MainCoordinatorC", "setupTabBar"]
+- ["12Coordinators15MainCoordinatorC", "start"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "setViewControllers"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "setViewControllers"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "setViewControllers"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "setViewControllers"]
+- !private ["12Coordinators14NavCoordinatorP", "TabsCoordinator"]
+- !private ["12Coordinators14NavCoordinatorP", "UITabBarController"]
+- ["12Coordinators14NavCoordinatorP", "childCoordinators"]
+- ["12Coordinators14NavCoordinatorP", "mainViewController"]
+- ["12Coordinators14NavCoordinatorP", "navigationController"]
+- ["12Coordinators14NavCoordinatorP", "popChildCoordinator"]
+- ["12Coordinators14NavCoordinatorP", "push"]
+- !private ["12Coordinators14NavCoordinatorP", "setupTabBar"]
+- ["12Coordinators14NavCoordinatorP", "start"]
+- ["12Coordinators14NavCoordinatorP", ""]
+- !private ["12Coordinators14TabCoordinatorP", "init"]
+- !private ["12Coordinators14TabCoordinatorP", "mainViewController"]
+- !private ["12Coordinators14TabCoordinatorP", "start"]
+- !private ["12Coordinators15TabsCoordinatorC", "deinit"]
+- !private ["12Coordinators15TabsCoordinatorC", "init"]
+- !private ["12Coordinators15TabsCoordinatorC", "mainViewController"]
+- !private ["12Coordinators15TabsCoordinatorC", "start"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "setViewControllers"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "setViewControllers"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "setViewControllers"]
+- !private ["So22UINavigationControllerC", "setViewControllers"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "setViewControllers"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "setViewControllers"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "setViewControllers"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "setViewControllers"]
+- !private ["So18UITabBarControllerC", "init"]
+- !private ["So16UITabBarDelegateP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "setViewControllers"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "setViewControllers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setViewControllers"]
+depends-nominal:
+- !private "s7CVarArgP"
+- "12Coordinators11CoordinatorP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9EquatableP"
+- !private "s8HashableP"
+- "12Coordinators15MainCoordinatorC"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- "12Coordinators14NavCoordinatorP"
+- !private "12Coordinators14TabCoordinatorP"
+- !private "12Coordinators15TabsCoordinatorC"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So22UINavigationControllerC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITabBarControllerC"
+- !private "So16UITabBarDelegateP"
+- !private "So18UITraitEnvironmentP"
+- !private "So16UIViewControllerC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "7f67392232977315c039eebe43acd64f"

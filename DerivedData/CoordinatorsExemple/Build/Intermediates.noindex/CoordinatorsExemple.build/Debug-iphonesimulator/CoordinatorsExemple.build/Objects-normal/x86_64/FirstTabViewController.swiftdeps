@@ -1,0 +1,419 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FirstTabViewController"
+provides-nominal:
+- "19CoordinatorsExemple22FirstTabViewControllerC"
+provides-member:
+- ["19CoordinatorsExemple22FirstTabViewControllerC", ""]
+provides-dynamic-lookup:
+- "showAuthentication"
+- "showDetail"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "AuthenticationDelegate"
+- "FirstTabViewController"
+- "StoryboardBased"
+- !private "StringLiteralType"
+- "TabDetailDelegate"
+- !private "UIBarButtonItem"
+- "UIViewController"
+depends-member:
+- !private ["19CoordinatorsExemple22AuthenticationDelegateP", "showAuthentication"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "FirstTabViewController"]
+- !private ["s7CVarArgP", "UIBarButtonItem"]
+- !private ["s7CVarArgP", "authDelegate"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiate"]
+- !private ["s7CVarArgP", "navigationItem"]
+- !private ["s7CVarArgP", "rightBarButtonItem"]
+- ["s7CVarArgP", "sceneStoryboard"]
+- !private ["s7CVarArgP", "showAuthentication"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "FirstTabViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "authDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiate"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationItem"]
+- !private ["s28CustomDebugStringConvertibleP", "rightBarButtonItem"]
+- ["s28CustomDebugStringConvertibleP", "sceneStoryboard"]
+- !private ["s28CustomDebugStringConvertibleP", "showAuthentication"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "FirstTabViewController"]
+- !private ["s23CustomStringConvertibleP", "UIBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "authDelegate"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiate"]
+- !private ["s23CustomStringConvertibleP", "navigationItem"]
+- !private ["s23CustomStringConvertibleP", "rightBarButtonItem"]
+- ["s23CustomStringConvertibleP", "sceneStoryboard"]
+- !private ["s23CustomStringConvertibleP", "showAuthentication"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "FirstTabViewController"]
+- !private ["s9EquatableP", "UIBarButtonItem"]
+- !private ["s9EquatableP", "authDelegate"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "done"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instantiate"]
+- !private ["s9EquatableP", "navigationItem"]
+- !private ["s9EquatableP", "rightBarButtonItem"]
+- ["s9EquatableP", "sceneStoryboard"]
+- !private ["s9EquatableP", "showAuthentication"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["19CoordinatorsExemple22FirstTabViewControllerC", "AuthenticationDelegate"]
+- !private ["19CoordinatorsExemple22FirstTabViewControllerC", "FirstTabViewController"]
+- ["19CoordinatorsExemple22FirstTabViewControllerC", "TabDetailDelegate"]
+- !private ["19CoordinatorsExemple22FirstTabViewControllerC", "UIBarButtonItem"]
+- ["19CoordinatorsExemple22FirstTabViewControllerC", "UIViewController"]
+- !private ["19CoordinatorsExemple22FirstTabViewControllerC", "authDelegate"]
+- ["19CoordinatorsExemple22FirstTabViewControllerC", "deinit"]
+- !private ["19CoordinatorsExemple22FirstTabViewControllerC", "delegate"]
+- ["19CoordinatorsExemple22FirstTabViewControllerC", "init"]
+- ["19CoordinatorsExemple22FirstTabViewControllerC", "instance"]
+- !private ["19CoordinatorsExemple22FirstTabViewControllerC", "instantiate"]
+- !private ["19CoordinatorsExemple22FirstTabViewControllerC", "navigationItem"]
+- ["19CoordinatorsExemple22FirstTabViewControllerC", "sceneStoryboard"]
+- ["19CoordinatorsExemple22FirstTabViewControllerC", "showAuthentication"]
+- !private ["19CoordinatorsExemple22FirstTabViewControllerC", "showDetail"]
+- ["19CoordinatorsExemple22FirstTabViewControllerC", "viewDidLoad"]
+- !private ["s8HashableP", "FirstTabViewController"]
+- !private ["s8HashableP", "UIBarButtonItem"]
+- !private ["s8HashableP", "authDelegate"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "done"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "instantiate"]
+- !private ["s8HashableP", "navigationItem"]
+- !private ["s8HashableP", "rightBarButtonItem"]
+- ["s8HashableP", "sceneStoryboard"]
+- !private ["s8HashableP", "showAuthentication"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "FirstTabViewController"]
+- !private ["So8NSCodingP", "UIBarButtonItem"]
+- !private ["So8NSCodingP", "authDelegate"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "instantiate"]
+- !private ["So8NSCodingP", "navigationItem"]
+- !private ["So8NSCodingP", "rightBarButtonItem"]
+- ["So8NSCodingP", "sceneStoryboard"]
+- !private ["So8NSCodingP", "showAuthentication"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "FirstTabViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "UIBarButtonItem"]
+- !private ["So26NSExtensionRequestHandlingP", "authDelegate"]
+- !private ["So26NSExtensionRequestHandlingP", "delegate"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "instantiate"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationItem"]
+- ["So26NSExtensionRequestHandlingP", "sceneStoryboard"]
+- !private ["So26NSExtensionRequestHandlingP", "showAuthentication"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "AuthenticationDelegate"]
+- !private ["So8NSObjectC", "FirstTabViewController"]
+- ["So8NSObjectC", "TabDetailDelegate"]
+- !private ["So8NSObjectC", "UIBarButtonItem"]
+- ["So8NSObjectC", "UIViewController"]
+- ["So8NSObjectC", "authDelegate"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "instance"]
+- !private ["So8NSObjectC", "instantiate"]
+- !private ["So8NSObjectC", "navigationItem"]
+- !private ["So8NSObjectC", "rightBarButtonItem"]
+- ["So8NSObjectC", "sceneStoryboard"]
+- ["So8NSObjectC", "showAuthentication"]
+- ["So8NSObjectC", "showDetail"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "FirstTabViewController"]
+- !private ["So16NSObjectProtocolP", "UIBarButtonItem"]
+- !private ["So16NSObjectProtocolP", "authDelegate"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instantiate"]
+- !private ["So16NSObjectProtocolP", "navigationItem"]
+- !private ["So16NSObjectProtocolP", "rightBarButtonItem"]
+- ["So16NSObjectProtocolP", "sceneStoryboard"]
+- !private ["So16NSObjectProtocolP", "showAuthentication"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "done"]
+- !private ["s8SequenceP", "init"]
+- !private ["19CoordinatorsExemple15StoryboardBasedP", "FirstTabViewController"]
+- !private ["19CoordinatorsExemple15StoryboardBasedP", "UIBarButtonItem"]
+- !private ["19CoordinatorsExemple15StoryboardBasedP", "authDelegate"]
+- !private ["19CoordinatorsExemple15StoryboardBasedP", "delegate"]
+- !private ["19CoordinatorsExemple15StoryboardBasedP", "instantiate"]
+- !private ["19CoordinatorsExemple15StoryboardBasedP", "navigationItem"]
+- ["19CoordinatorsExemple15StoryboardBasedP", "sceneStoryboard"]
+- !private ["19CoordinatorsExemple15StoryboardBasedP", "showAuthentication"]
+- ["19CoordinatorsExemple15StoryboardBasedP", ""]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["19CoordinatorsExemple17TabDetailDelegateP", "showDetail"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So21UIAppearanceContainerP", "FirstTabViewController"]
+- !private ["So21UIAppearanceContainerP", "UIBarButtonItem"]
+- !private ["So21UIAppearanceContainerP", "authDelegate"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "instantiate"]
+- !private ["So21UIAppearanceContainerP", "navigationItem"]
+- ["So21UIAppearanceContainerP", "sceneStoryboard"]
+- !private ["So21UIAppearanceContainerP", "showAuthentication"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So15UIBarButtonItemC", "init"]
+- !private ["SC20UIBarButtonItemStyleO", "done"]
+- !private ["So9UIBarItemC", "init"]
+- !private ["So18UIContentContainerP", "FirstTabViewController"]
+- !private ["So18UIContentContainerP", "UIBarButtonItem"]
+- !private ["So18UIContentContainerP", "authDelegate"]
+- !private ["So18UIContentContainerP", "delegate"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "instantiate"]
+- !private ["So18UIContentContainerP", "navigationItem"]
+- ["So18UIContentContainerP", "sceneStoryboard"]
+- !private ["So18UIContentContainerP", "showAuthentication"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIFocusEnvironmentP", "FirstTabViewController"]
+- !private ["So18UIFocusEnvironmentP", "UIBarButtonItem"]
+- !private ["So18UIFocusEnvironmentP", "authDelegate"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "instantiate"]
+- !private ["So18UIFocusEnvironmentP", "navigationItem"]
+- ["So18UIFocusEnvironmentP", "sceneStoryboard"]
+- !private ["So18UIFocusEnvironmentP", "showAuthentication"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So16UINavigationItemC", "rightBarButtonItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "FirstTabViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIBarButtonItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "authDelegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "instantiate"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationItem"]
+- ["So30UIPasteConfigurationSupportingP", "sceneStoryboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "showAuthentication"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "AuthenticationDelegate"]
+- !private ["So11UIResponderC", "FirstTabViewController"]
+- ["So11UIResponderC", "TabDetailDelegate"]
+- !private ["So11UIResponderC", "UIBarButtonItem"]
+- ["So11UIResponderC", "UIViewController"]
+- ["So11UIResponderC", "authDelegate"]
+- ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "instance"]
+- !private ["So11UIResponderC", "instantiate"]
+- !private ["So11UIResponderC", "navigationItem"]
+- ["So11UIResponderC", "sceneStoryboard"]
+- ["So11UIResponderC", "showAuthentication"]
+- ["So11UIResponderC", "showDetail"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "FirstTabViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "UIBarButtonItem"]
+- !private ["So30UIResponderStandardEditActionsP", "authDelegate"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "instantiate"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationItem"]
+- ["So30UIResponderStandardEditActionsP", "sceneStoryboard"]
+- !private ["So30UIResponderStandardEditActionsP", "showAuthentication"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So16UIStateRestoringP", "FirstTabViewController"]
+- !private ["So16UIStateRestoringP", "UIBarButtonItem"]
+- !private ["So16UIStateRestoringP", "authDelegate"]
+- !private ["So16UIStateRestoringP", "delegate"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "instantiate"]
+- !private ["So16UIStateRestoringP", "navigationItem"]
+- ["So16UIStateRestoringP", "sceneStoryboard"]
+- !private ["So16UIStateRestoringP", "showAuthentication"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "FirstTabViewController"]
+- !private ["So18UITraitEnvironmentP", "UIBarButtonItem"]
+- !private ["So18UITraitEnvironmentP", "authDelegate"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "instantiate"]
+- !private ["So18UITraitEnvironmentP", "navigationItem"]
+- ["So18UITraitEnvironmentP", "sceneStoryboard"]
+- !private ["So18UITraitEnvironmentP", "showAuthentication"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So16UIViewControllerC", "AuthenticationDelegate"]
+- !private ["So16UIViewControllerC", "FirstTabViewController"]
+- ["So16UIViewControllerC", "TabDetailDelegate"]
+- !private ["So16UIViewControllerC", "UIBarButtonItem"]
+- ["So16UIViewControllerC", "UIViewController"]
+- ["So16UIViewControllerC", "authDelegate"]
+- ["So16UIViewControllerC", "delegate"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "instance"]
+- !private ["So16UIViewControllerC", "instantiate"]
+- !private ["So16UIViewControllerC", "navigationItem"]
+- ["So16UIViewControllerC", "sceneStoryboard"]
+- ["So16UIViewControllerC", "showAuthentication"]
+- ["So16UIViewControllerC", "showDetail"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", ""]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FirstTabViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "authDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rightBarButtonItem"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sceneStoryboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showAuthentication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "19CoordinatorsExemple22AuthenticationDelegateP"
+- !private "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "19CoordinatorsExemple22FirstTabViewControllerC"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- "19CoordinatorsExemple15StoryboardBasedP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "19CoordinatorsExemple17TabDetailDelegateP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So15UIBarButtonItemC"
+- !private "SC20UIBarButtonItemStyleO"
+- !private "So9UIBarItemC"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- !private "So16UINavigationItemC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So16UIViewControllerC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "c460caef51bf9778e2950b2aa776844f"

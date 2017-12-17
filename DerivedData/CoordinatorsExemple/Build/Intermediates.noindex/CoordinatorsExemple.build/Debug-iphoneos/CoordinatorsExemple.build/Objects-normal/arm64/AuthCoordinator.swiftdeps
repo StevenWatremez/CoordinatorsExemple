@@ -1,0 +1,152 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AuthenticationDelegate"
+- "AuthCoordinator"
+provides-nominal:
+- "19CoordinatorsExemple22AuthenticationDelegateP"
+- "19CoordinatorsExemple15AuthCoordinatorC"
+provides-member:
+- ["19CoordinatorsExemple22AuthenticationDelegateP", ""]
+- ["19CoordinatorsExemple15AuthCoordinatorC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "AuthCoordinator"
+- "AuthenticationDelegate"
+- !private "AuthenticationViewController"
+- !private "BooleanLiteralType"
+- "Coordinator"
+- "NavCoordinator"
+- "UIViewController"
+depends-member:
+- ["19CoordinatorsExemple15AuthCoordinatorC", "AuthenticationDelegate"]
+- !private ["19CoordinatorsExemple15AuthCoordinatorC", "AuthenticationViewController"]
+- ["19CoordinatorsExemple15AuthCoordinatorC", "Coordinator"]
+- ["19CoordinatorsExemple15AuthCoordinatorC", "UIViewController"]
+- ["19CoordinatorsExemple15AuthCoordinatorC", "childCoordinators"]
+- ["19CoordinatorsExemple15AuthCoordinatorC", "deinit"]
+- !private ["19CoordinatorsExemple15AuthCoordinatorC", "delegate"]
+- ["19CoordinatorsExemple15AuthCoordinatorC", "init"]
+- !private ["19CoordinatorsExemple15AuthCoordinatorC", "launchAuthentVC"]
+- ["19CoordinatorsExemple15AuthCoordinatorC", "mainViewController"]
+- ["19CoordinatorsExemple15AuthCoordinatorC", "navigationController"]
+- ["19CoordinatorsExemple15AuthCoordinatorC", "popChildCoordinator"]
+- ["19CoordinatorsExemple15AuthCoordinatorC", "push"]
+- ["19CoordinatorsExemple15AuthCoordinatorC", "start"]
+- ["19CoordinatorsExemple22AuthenticationDelegateP", "didAuthenticated"]
+- !private ["19CoordinatorsExemple28AuthenticationViewControllerC", "instance"]
+- !private ["s7CVarArgP", "instance"]
+- !private ["s7CVarArgP", "setViewControllers"]
+- !private ["19CoordinatorsExemple11CoordinatorP", "AuthenticationViewController"]
+- ["19CoordinatorsExemple11CoordinatorP", "childCoordinators"]
+- !private ["19CoordinatorsExemple11CoordinatorP", "delegate"]
+- !private ["19CoordinatorsExemple11CoordinatorP", "launchAuthentVC"]
+- ["19CoordinatorsExemple11CoordinatorP", "mainViewController"]
+- ["19CoordinatorsExemple11CoordinatorP", "navigationController"]
+- ["19CoordinatorsExemple11CoordinatorP", "popChildCoordinator"]
+- ["19CoordinatorsExemple11CoordinatorP", "push"]
+- ["19CoordinatorsExemple11CoordinatorP", "start"]
+- ["19CoordinatorsExemple11CoordinatorP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "instance"]
+- !private ["s28CustomDebugStringConvertibleP", "setViewControllers"]
+- !private ["s23CustomStringConvertibleP", "instance"]
+- !private ["s23CustomStringConvertibleP", "setViewControllers"]
+- !private ["s9EquatableP", "instance"]
+- !private ["s9EquatableP", "setViewControllers"]
+- !private ["s8HashableP", "instance"]
+- !private ["s8HashableP", "setViewControllers"]
+- !private ["So8NSCodingP", "instance"]
+- !private ["So8NSCodingP", "setViewControllers"]
+- !private ["So26NSExtensionRequestHandlingP", "instance"]
+- !private ["So26NSExtensionRequestHandlingP", "setViewControllers"]
+- !private ["So8NSObjectC", "instance"]
+- !private ["So8NSObjectC", "setViewControllers"]
+- !private ["So16NSObjectProtocolP", "instance"]
+- !private ["So16NSObjectProtocolP", "setViewControllers"]
+- !private ["19CoordinatorsExemple14NavCoordinatorP", "AuthenticationViewController"]
+- ["19CoordinatorsExemple14NavCoordinatorP", "childCoordinators"]
+- !private ["19CoordinatorsExemple14NavCoordinatorP", "delegate"]
+- !private ["19CoordinatorsExemple14NavCoordinatorP", "launchAuthentVC"]
+- ["19CoordinatorsExemple14NavCoordinatorP", "mainViewController"]
+- ["19CoordinatorsExemple14NavCoordinatorP", "navigationController"]
+- ["19CoordinatorsExemple14NavCoordinatorP", "popChildCoordinator"]
+- ["19CoordinatorsExemple14NavCoordinatorP", "push"]
+- ["19CoordinatorsExemple14NavCoordinatorP", "start"]
+- ["19CoordinatorsExemple14NavCoordinatorP", ""]
+- !private ["19CoordinatorsExemple15StoryboardBasedP", "instance"]
+- !private ["So21UIAppearanceContainerP", "instance"]
+- !private ["So21UIAppearanceContainerP", "setViewControllers"]
+- !private ["So18UIContentContainerP", "instance"]
+- !private ["So18UIContentContainerP", "setViewControllers"]
+- !private ["So18UIFocusEnvironmentP", "instance"]
+- !private ["So18UIFocusEnvironmentP", "setViewControllers"]
+- !private ["So22UINavigationControllerC", "setViewControllers"]
+- !private ["So30UIPasteConfigurationSupportingP", "instance"]
+- !private ["So30UIPasteConfigurationSupportingP", "setViewControllers"]
+- !private ["So11UIResponderC", "instance"]
+- !private ["So11UIResponderC", "setViewControllers"]
+- !private ["So30UIResponderStandardEditActionsP", "instance"]
+- !private ["So30UIResponderStandardEditActionsP", "setViewControllers"]
+- !private ["So16UIStateRestoringP", "instance"]
+- !private ["So16UIStateRestoringP", "setViewControllers"]
+- !private ["So18UITraitEnvironmentP", "instance"]
+- !private ["So18UITraitEnvironmentP", "setViewControllers"]
+- !private ["So16UIViewControllerC", "instance"]
+- !private ["So16UIViewControllerC", "setViewControllers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setViewControllers"]
+depends-nominal:
+- "19CoordinatorsExemple15AuthCoordinatorC"
+- "19CoordinatorsExemple22AuthenticationDelegateP"
+- !private "19CoordinatorsExemple28AuthenticationViewControllerC"
+- !private "s7CVarArgP"
+- "19CoordinatorsExemple11CoordinatorP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9EquatableP"
+- !private "s8HashableP"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- "19CoordinatorsExemple14NavCoordinatorP"
+- !private "19CoordinatorsExemple15StoryboardBasedP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So22UINavigationControllerC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So16UIViewControllerC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "0668548247726839d2b0f1048efdae12"

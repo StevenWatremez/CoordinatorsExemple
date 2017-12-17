@@ -1,0 +1,480 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StoryboardSceneType"
+- "StoryboardSegueType"
+- "StoryboardScene"
+- "StoryboardSegue"
+provides-nominal:
+- "19CoordinatorsExemple19StoryboardSceneTypeP"
+- "19CoordinatorsExemple19StoryboardSegueTypeP"
+- "19CoordinatorsExemple15StoryboardSceneO"
+- "19CoordinatorsExemple15StoryboardSceneO28AuthenticationViewControllerO"
+- "19CoordinatorsExemple15StoryboardSceneO25FirstDetailViewControllerO"
+- "19CoordinatorsExemple15StoryboardSceneO22FirstTabViewControllerO"
+- "19CoordinatorsExemple15StoryboardSceneO12LaunchScreenO"
+- "19CoordinatorsExemple15StoryboardSceneO4MainO"
+- "19CoordinatorsExemple15StoryboardSceneO26SecondDetailViewControllerO"
+- "19CoordinatorsExemple15StoryboardSceneO23SecondTabViewControllerO"
+- "19CoordinatorsExemple15StoryboardSceneO20SplashViewControllerO"
+- "19CoordinatorsExemple15StoryboardSegueO"
+provides-member:
+- ["19CoordinatorsExemple19StoryboardSceneTypeP", ""]
+- ["19CoordinatorsExemple19StoryboardSegueTypeP", ""]
+- ["So16UIViewControllerC", ""]
+- ["19CoordinatorsExemple15StoryboardSceneO", ""]
+- ["19CoordinatorsExemple15StoryboardSceneO28AuthenticationViewControllerO", ""]
+- ["19CoordinatorsExemple15StoryboardSceneO25FirstDetailViewControllerO", ""]
+- ["19CoordinatorsExemple15StoryboardSceneO22FirstTabViewControllerO", ""]
+- ["19CoordinatorsExemple15StoryboardSceneO12LaunchScreenO", ""]
+- ["19CoordinatorsExemple15StoryboardSceneO4MainO", ""]
+- ["19CoordinatorsExemple15StoryboardSceneO26SecondDetailViewControllerO", ""]
+- ["19CoordinatorsExemple15StoryboardSceneO23SecondTabViewControllerO", ""]
+- ["19CoordinatorsExemple15StoryboardSceneO20SplashViewControllerO", ""]
+- ["19CoordinatorsExemple15StoryboardSegueO", ""]
+- ["19CoordinatorsExemple19StoryboardSceneTypeP", "storyboard"]
+- ["19CoordinatorsExemple19StoryboardSceneTypeP", "initialViewController"]
+- ["19CoordinatorsExemple19StoryboardSceneTypeP", "viewController"]
+- ["19CoordinatorsExemple19StoryboardSceneTypeP", "viewController"]
+- ["So16UIViewControllerC", "perform"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AuthenticationViewController"
+- !private "Bundle"
+- !private "BundleToken"
+- "CastingPrecedence"
+- "CoordinatorsExemple"
+- "FirstDetailViewController"
+- "FirstTabViewController"
+- "RawRepresentable"
+- "SecondDetailViewController"
+- "SecondTabViewController"
+- "SplashViewController"
+- "StoryboardScene"
+- "StoryboardSceneType"
+- "StoryboardSegue"
+- "StoryboardSegueType"
+- "String"
+- "StringLiteralType"
+- "UIStoryboard"
+- "UIViewController"
+- "ViewController"
+- !private "fatalError"
+- !private "~="
+depends-member:
+- ["19CoordinatorsExemple15StoryboardSceneO28AuthenticationViewControllerO", "CoordinatorsExemple"]
+- ["19CoordinatorsExemple15StoryboardSceneO28AuthenticationViewControllerO", "RawValue"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO28AuthenticationViewControllerO", "StoryboardScene"]
+- ["19CoordinatorsExemple15StoryboardSceneO28AuthenticationViewControllerO", "authenticationViewControllerScene"]
+- ["19CoordinatorsExemple15StoryboardSceneO28AuthenticationViewControllerO", "deinit"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO28AuthenticationViewControllerO", "fatalError"]
+- ["19CoordinatorsExemple15StoryboardSceneO28AuthenticationViewControllerO", "hashValue"]
+- ["19CoordinatorsExemple15StoryboardSceneO28AuthenticationViewControllerO", "init"]
+- ["19CoordinatorsExemple15StoryboardSceneO28AuthenticationViewControllerO", "initialViewController"]
+- ["19CoordinatorsExemple15StoryboardSceneO28AuthenticationViewControllerO", "instantiateAuthenticationViewController"]
+- ["19CoordinatorsExemple15StoryboardSceneO28AuthenticationViewControllerO", "rawValue"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO28AuthenticationViewControllerO", "storyboard"]
+- ["19CoordinatorsExemple15StoryboardSceneO28AuthenticationViewControllerO", "storyboardName"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO28AuthenticationViewControllerO", "viewController"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So6BundleC", "init"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateInitialViewController"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "performSegue"]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateInitialViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateInitialViewController"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "performSegue"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "StoryboardScene"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "authenticationViewControllerScene"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "firstDetailViewControllerScene"]
+- !private ["s9EquatableP", "firstTabViewControllerScene"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instantiateInitialViewController"]
+- !private ["s9EquatableP", "instantiateViewController"]
+- !private ["s9EquatableP", "performSegue"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "secondDetailViewControllerScene"]
+- !private ["s9EquatableP", "secondTabViewControllerScene"]
+- !private ["s9EquatableP", "splashViewControllerScene"]
+- !private ["s9EquatableP", "storyboard"]
+- ["s9EquatableP", "storyboardName"]
+- !private ["s9EquatableP", "viewController"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["19CoordinatorsExemple15StoryboardSceneO25FirstDetailViewControllerO", "CoordinatorsExemple"]
+- ["19CoordinatorsExemple15StoryboardSceneO25FirstDetailViewControllerO", "RawValue"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO25FirstDetailViewControllerO", "StoryboardScene"]
+- ["19CoordinatorsExemple15StoryboardSceneO25FirstDetailViewControllerO", "deinit"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO25FirstDetailViewControllerO", "fatalError"]
+- ["19CoordinatorsExemple15StoryboardSceneO25FirstDetailViewControllerO", "firstDetailViewControllerScene"]
+- ["19CoordinatorsExemple15StoryboardSceneO25FirstDetailViewControllerO", "hashValue"]
+- ["19CoordinatorsExemple15StoryboardSceneO25FirstDetailViewControllerO", "init"]
+- ["19CoordinatorsExemple15StoryboardSceneO25FirstDetailViewControllerO", "initialViewController"]
+- ["19CoordinatorsExemple15StoryboardSceneO25FirstDetailViewControllerO", "instantiateFirstDetailViewController"]
+- ["19CoordinatorsExemple15StoryboardSceneO25FirstDetailViewControllerO", "rawValue"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO25FirstDetailViewControllerO", "storyboard"]
+- ["19CoordinatorsExemple15StoryboardSceneO25FirstDetailViewControllerO", "storyboardName"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO25FirstDetailViewControllerO", "viewController"]
+- ["19CoordinatorsExemple15StoryboardSceneO22FirstTabViewControllerO", "CoordinatorsExemple"]
+- ["19CoordinatorsExemple15StoryboardSceneO22FirstTabViewControllerO", "RawValue"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO22FirstTabViewControllerO", "StoryboardScene"]
+- ["19CoordinatorsExemple15StoryboardSceneO22FirstTabViewControllerO", "deinit"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO22FirstTabViewControllerO", "fatalError"]
+- ["19CoordinatorsExemple15StoryboardSceneO22FirstTabViewControllerO", "firstTabViewControllerScene"]
+- ["19CoordinatorsExemple15StoryboardSceneO22FirstTabViewControllerO", "hashValue"]
+- ["19CoordinatorsExemple15StoryboardSceneO22FirstTabViewControllerO", "init"]
+- ["19CoordinatorsExemple15StoryboardSceneO22FirstTabViewControllerO", "initialViewController"]
+- ["19CoordinatorsExemple15StoryboardSceneO22FirstTabViewControllerO", "instantiateFirstTabViewController"]
+- ["19CoordinatorsExemple15StoryboardSceneO22FirstTabViewControllerO", "rawValue"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO22FirstTabViewControllerO", "storyboard"]
+- ["19CoordinatorsExemple15StoryboardSceneO22FirstTabViewControllerO", "storyboardName"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO22FirstTabViewControllerO", "viewController"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "StoryboardScene"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "authenticationViewControllerScene"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "firstDetailViewControllerScene"]
+- !private ["s8HashableP", "firstTabViewControllerScene"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "instantiateInitialViewController"]
+- !private ["s8HashableP", "instantiateViewController"]
+- !private ["s8HashableP", "performSegue"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "secondDetailViewControllerScene"]
+- !private ["s8HashableP", "secondTabViewControllerScene"]
+- !private ["s8HashableP", "splashViewControllerScene"]
+- !private ["s8HashableP", "storyboard"]
+- ["s8HashableP", "storyboardName"]
+- !private ["s8HashableP", "viewController"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- ["19CoordinatorsExemple15StoryboardSceneO12LaunchScreenO", "deinit"]
+- ["19CoordinatorsExemple15StoryboardSceneO12LaunchScreenO", "storyboardName"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["19CoordinatorsExemple15StoryboardSceneO4MainO", "CoordinatorsExemple"]
+- ["19CoordinatorsExemple15StoryboardSceneO4MainO", "deinit"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO4MainO", "fatalError"]
+- ["19CoordinatorsExemple15StoryboardSceneO4MainO", "initialViewController"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO4MainO", "storyboard"]
+- ["19CoordinatorsExemple15StoryboardSceneO4MainO", "storyboardName"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "performSegue"]
+- ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "StoryboardSegueType"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateInitialViewController"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- ["So8NSObjectC", "perform"]
+- !private ["So8NSObjectC", "performSegue"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instantiateInitialViewController"]
+- !private ["So16NSObjectProtocolP", "instantiateViewController"]
+- !private ["So16NSObjectProtocolP", "performSegue"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["s7NumericP", "hashValue"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", "Self"]
+- !private ["s16RawRepresentableP", "StoryboardScene"]
+- ["s16RawRepresentableP", "UIViewController"]
+- !private ["s16RawRepresentableP", "authenticationViewControllerScene"]
+- !private ["s16RawRepresentableP", "fatalError"]
+- !private ["s16RawRepresentableP", "firstDetailViewControllerScene"]
+- !private ["s16RawRepresentableP", "firstTabViewControllerScene"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["s16RawRepresentableP", "secondDetailViewControllerScene"]
+- !private ["s16RawRepresentableP", "secondTabViewControllerScene"]
+- !private ["s16RawRepresentableP", "splashViewControllerScene"]
+- !private ["s16RawRepresentableP", "storyboard"]
+- ["s16RawRepresentableP", "storyboardName"]
+- !private ["s16RawRepresentableP", "viewController"]
+- ["s16RawRepresentableP", ""]
+- ["19CoordinatorsExemple15StoryboardSceneO26SecondDetailViewControllerO", "CoordinatorsExemple"]
+- ["19CoordinatorsExemple15StoryboardSceneO26SecondDetailViewControllerO", "RawValue"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO26SecondDetailViewControllerO", "StoryboardScene"]
+- ["19CoordinatorsExemple15StoryboardSceneO26SecondDetailViewControllerO", "deinit"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO26SecondDetailViewControllerO", "fatalError"]
+- ["19CoordinatorsExemple15StoryboardSceneO26SecondDetailViewControllerO", "hashValue"]
+- ["19CoordinatorsExemple15StoryboardSceneO26SecondDetailViewControllerO", "init"]
+- ["19CoordinatorsExemple15StoryboardSceneO26SecondDetailViewControllerO", "initialViewController"]
+- ["19CoordinatorsExemple15StoryboardSceneO26SecondDetailViewControllerO", "instantiateSecondDetailViewController"]
+- ["19CoordinatorsExemple15StoryboardSceneO26SecondDetailViewControllerO", "rawValue"]
+- ["19CoordinatorsExemple15StoryboardSceneO26SecondDetailViewControllerO", "secondDetailViewControllerScene"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO26SecondDetailViewControllerO", "storyboard"]
+- ["19CoordinatorsExemple15StoryboardSceneO26SecondDetailViewControllerO", "storyboardName"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO26SecondDetailViewControllerO", "viewController"]
+- ["19CoordinatorsExemple15StoryboardSceneO23SecondTabViewControllerO", "CoordinatorsExemple"]
+- ["19CoordinatorsExemple15StoryboardSceneO23SecondTabViewControllerO", "RawValue"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO23SecondTabViewControllerO", "StoryboardScene"]
+- ["19CoordinatorsExemple15StoryboardSceneO23SecondTabViewControllerO", "deinit"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO23SecondTabViewControllerO", "fatalError"]
+- ["19CoordinatorsExemple15StoryboardSceneO23SecondTabViewControllerO", "hashValue"]
+- ["19CoordinatorsExemple15StoryboardSceneO23SecondTabViewControllerO", "init"]
+- ["19CoordinatorsExemple15StoryboardSceneO23SecondTabViewControllerO", "initialViewController"]
+- ["19CoordinatorsExemple15StoryboardSceneO23SecondTabViewControllerO", "instantiateSecondTabViewController"]
+- ["19CoordinatorsExemple15StoryboardSceneO23SecondTabViewControllerO", "rawValue"]
+- ["19CoordinatorsExemple15StoryboardSceneO23SecondTabViewControllerO", "secondTabViewControllerScene"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO23SecondTabViewControllerO", "storyboard"]
+- ["19CoordinatorsExemple15StoryboardSceneO23SecondTabViewControllerO", "storyboardName"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO23SecondTabViewControllerO", "viewController"]
+- ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- ["19CoordinatorsExemple15StoryboardSceneO20SplashViewControllerO", "CoordinatorsExemple"]
+- ["19CoordinatorsExemple15StoryboardSceneO20SplashViewControllerO", "RawValue"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO20SplashViewControllerO", "StoryboardScene"]
+- ["19CoordinatorsExemple15StoryboardSceneO20SplashViewControllerO", "deinit"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO20SplashViewControllerO", "fatalError"]
+- ["19CoordinatorsExemple15StoryboardSceneO20SplashViewControllerO", "hashValue"]
+- ["19CoordinatorsExemple15StoryboardSceneO20SplashViewControllerO", "init"]
+- ["19CoordinatorsExemple15StoryboardSceneO20SplashViewControllerO", "initialViewController"]
+- ["19CoordinatorsExemple15StoryboardSceneO20SplashViewControllerO", "instantiateSplashViewController"]
+- ["19CoordinatorsExemple15StoryboardSceneO20SplashViewControllerO", "rawValue"]
+- ["19CoordinatorsExemple15StoryboardSceneO20SplashViewControllerO", "splashViewControllerScene"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO20SplashViewControllerO", "storyboard"]
+- ["19CoordinatorsExemple15StoryboardSceneO20SplashViewControllerO", "storyboardName"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO20SplashViewControllerO", "viewController"]
+- !private ["s12StaticStringV", "init"]
+- ["19CoordinatorsExemple15StoryboardSceneO", "AuthenticationViewController"]
+- ["19CoordinatorsExemple15StoryboardSceneO", "CoordinatorsExemple"]
+- ["19CoordinatorsExemple15StoryboardSceneO", "FirstDetailViewController"]
+- ["19CoordinatorsExemple15StoryboardSceneO", "FirstTabViewController"]
+- ["19CoordinatorsExemple15StoryboardSceneO", "LaunchScreen"]
+- ["19CoordinatorsExemple15StoryboardSceneO", "Main"]
+- ["19CoordinatorsExemple15StoryboardSceneO", "SecondDetailViewController"]
+- ["19CoordinatorsExemple15StoryboardSceneO", "SecondTabViewController"]
+- ["19CoordinatorsExemple15StoryboardSceneO", "SplashViewController"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO", "StoryboardScene"]
+- ["19CoordinatorsExemple15StoryboardSceneO", "StoryboardSceneType"]
+- ["19CoordinatorsExemple15StoryboardSceneO", "String"]
+- !private ["19CoordinatorsExemple15StoryboardSceneO", "fatalError"]
+- !private ["19CoordinatorsExemple19StoryboardSceneTypeP", "Bundle"]
+- !private ["19CoordinatorsExemple19StoryboardSceneTypeP", "BundleToken"]
+- ["19CoordinatorsExemple19StoryboardSceneTypeP", "RawRepresentable"]
+- ["19CoordinatorsExemple19StoryboardSceneTypeP", "RawValue"]
+- ["19CoordinatorsExemple19StoryboardSceneTypeP", "Self"]
+- !private ["19CoordinatorsExemple19StoryboardSceneTypeP", "StoryboardScene"]
+- ["19CoordinatorsExemple19StoryboardSceneTypeP", "String"]
+- ["19CoordinatorsExemple19StoryboardSceneTypeP", "UIStoryboard"]
+- ["19CoordinatorsExemple19StoryboardSceneTypeP", "UIViewController"]
+- !private ["19CoordinatorsExemple19StoryboardSceneTypeP", "authenticationViewControllerScene"]
+- !private ["19CoordinatorsExemple19StoryboardSceneTypeP", "fatalError"]
+- !private ["19CoordinatorsExemple19StoryboardSceneTypeP", "firstDetailViewControllerScene"]
+- !private ["19CoordinatorsExemple19StoryboardSceneTypeP", "firstTabViewControllerScene"]
+- ["19CoordinatorsExemple19StoryboardSceneTypeP", "hashValue"]
+- ["19CoordinatorsExemple19StoryboardSceneTypeP", "init"]
+- ["19CoordinatorsExemple19StoryboardSceneTypeP", "initialViewController"]
+- ["19CoordinatorsExemple19StoryboardSceneTypeP", "rawValue"]
+- !private ["19CoordinatorsExemple19StoryboardSceneTypeP", "secondDetailViewControllerScene"]
+- !private ["19CoordinatorsExemple19StoryboardSceneTypeP", "secondTabViewControllerScene"]
+- !private ["19CoordinatorsExemple19StoryboardSceneTypeP", "splashViewControllerScene"]
+- ["19CoordinatorsExemple19StoryboardSceneTypeP", "storyboard"]
+- ["19CoordinatorsExemple19StoryboardSceneTypeP", "storyboardName"]
+- ["19CoordinatorsExemple19StoryboardSceneTypeP", "viewController"]
+- ["19CoordinatorsExemple19StoryboardSceneTypeP", ""]
+- !private ["19CoordinatorsExemple19StoryboardSegueTypeP", "rawValue"]
+- !private ["s10StrideableP", "hashValue"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So21UIAppearanceContainerP", "performSegue"]
+- !private ["So18UIContentContainerP", "performSegue"]
+- !private ["So18UIFocusEnvironmentP", "performSegue"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
+- ["So11UIResponderC", "StoryboardSegueType"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "perform"]
+- !private ["So11UIResponderC", "performSegue"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
+- !private ["So16UIStateRestoringP", "performSegue"]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "instantiateInitialViewController"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So18UITraitEnvironmentP", "performSegue"]
+- ["So16UIViewControllerC", "StoryboardSegueType"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "perform"]
+- !private ["So16UIViewControllerC", "performSegue"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateInitialViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "hashValue"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "19CoordinatorsExemple15StoryboardSceneO28AuthenticationViewControllerO"
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "So6BundleC"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "19CoordinatorsExemple15StoryboardSceneO25FirstDetailViewControllerO"
+- "19CoordinatorsExemple15StoryboardSceneO22FirstTabViewControllerO"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- "19CoordinatorsExemple15StoryboardSceneO12LaunchScreenO"
+- "s25LosslessStringConvertibleP"
+- "19CoordinatorsExemple15StoryboardSceneO4MainO"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "19CoordinatorsExemple15StoryboardSceneO26SecondDetailViewControllerO"
+- "19CoordinatorsExemple15StoryboardSceneO23SecondTabViewControllerO"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- "19CoordinatorsExemple15StoryboardSceneO20SplashViewControllerO"
+- !private "s12StaticStringV"
+- "19CoordinatorsExemple15StoryboardSceneO"
+- "19CoordinatorsExemple19StoryboardSceneTypeP"
+- !private "19CoordinatorsExemple19StoryboardSegueTypeP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- !private "So18UITraitEnvironmentP"
+- "So16UIViewControllerC"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "d0ff8e29478bb2ac35b779e5a79082b7"
