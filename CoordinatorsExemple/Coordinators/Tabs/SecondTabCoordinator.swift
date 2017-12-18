@@ -35,6 +35,7 @@ final class SecondTabCoordinator: NavCoordinator {
   }
   
   private func launchDetailCoordinator() {
+    self.popChildCoordinator()
     let coordinator = DetailCoordinator(mainViewController: self.mainViewController, delegate: self, type: .withNavigation)
     self.push(childCoordinator: coordinator)
     coordinator.start()
@@ -49,7 +50,6 @@ extension SecondTabCoordinator: TabDetailDelegate {
 
 extension SecondTabCoordinator: DetailDelegate {
   func finish() {
-    self.popChildCoordinator()
     self.navigationController.popToRootViewController(animated: true)
   }
 }
