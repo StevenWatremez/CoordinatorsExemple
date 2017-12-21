@@ -102,16 +102,6 @@ enum StoryboardScene {
   enum LaunchScreen: StoryboardSceneType {
     static let storyboardName = "LaunchScreen"
   }
-  enum Main: StoryboardSceneType {
-    static let storyboardName = "Main"
-
-    static func initialViewController() -> CoordinatorsExemple.ViewController {
-      guard let vc = storyboard().instantiateInitialViewController() as? CoordinatorsExemple.ViewController else {
-        fatalError("Failed to instantiate initialViewController for \(self.storyboardName)")
-      }
-      return vc
-    }
-  }
   enum SecondDetailViewController: String, StoryboardSceneType {
     static let storyboardName = "SecondDetailViewController"
 
