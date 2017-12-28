@@ -2,6 +2,7 @@
 
 import Foundation
 import UIKit
+import CoordinatorsExemple
 
 // swiftlint:disable file_length
 // swiftlint:disable line_length
