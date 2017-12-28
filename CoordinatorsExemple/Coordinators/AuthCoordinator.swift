@@ -25,6 +25,7 @@ final class AuthCoordinator: NavCoordinator {
   init(mainViewController: UIViewController, delegate: AuthenticationDelegate?) {
     self.mainViewController = mainViewController
     self.delegate = delegate
+    self.navigationController.isNavigationBarHidden = true
   }
   
   // MARK: - Public Funcs

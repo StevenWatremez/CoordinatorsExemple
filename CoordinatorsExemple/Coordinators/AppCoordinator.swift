@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class AppCoordinator: NavCoordinator {
+final class AppCoordinator: Coordinator {
   
   // MARK: - Properties
   var mainViewController: UIViewController
@@ -17,8 +17,6 @@ final class AppCoordinator: NavCoordinator {
   // MARK: - Init
   init(mainViewController: UIViewController) {
     self.mainViewController = mainViewController
-    
-    self.navigationController.isNavigationBarHidden = true
   }
   
   // MARK: - Public Funcs
@@ -28,7 +26,7 @@ final class AppCoordinator: NavCoordinator {
   
   private func startSplashVC() {
     let controller = SplashViewController.instantiate()
-    self.navigationController.setViewControllers([controller], animated: false)
+    self.displayContentController(for: controller, in: self.mainViewController)
     
     let time = DispatchTime.now() + .seconds(3)
     DispatchQueue.main.asyncAfter(deadline: time) {
@@ -38,15 +36,34 @@ final class AppCoordinator: NavCoordinator {
   
   // MARK: - Private Funcs
   private func startMainApp() {
-    let coordinator = MainCoordinator(mainViewController: self.mainViewController, delegate: self)
+    self.hideContentController()
+    let coordinator = MainCoordinator(mainViewController: UINavigationController(), delegate: self)
     self.push(childCoordinator: coordinator)
     coordinator.start()
+    self.displayContentController(for: coordinator.mainViewController, in: self.mainViewController)
   }
   
   private func startAuthentication() {
-    let coordinator = AuthCoordinator(mainViewController: self.mainViewController, delegate: self)
+    self.hideContentController()
+    let coordinator = AuthCoordinator(mainViewController: UINavigationController(), delegate: self)
     self.push(childCoordinator: coordinator)
     coordinator.start()
+    self.displayContentController(for: coordinator.mainViewController, in: self.mainViewController)
+  }
+  
+  private func displayContentController(for content: UIViewController, in container: UIViewController) {
+    container.addChildViewController(content)
+    content.view.frame = container.view.frame
+    container.view.addSubview(content.view)
+    content.didMove(toParentViewController: container)
+  }
+  
+  private func hideContentController() {
+    self.mainViewController.childViewControllers.forEach { (viewController: UIViewController) in
+      viewController.willMove(toParentViewController: nil)
+      viewController.view.removeFromSuperview()
+      viewController.removeFromParentViewController()
+    }
   }
 }
 

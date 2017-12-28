@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   // MARK: - Private Properties
   private var appCoordinator: AppCoordinator?
   private var mainViewController: UIViewController {
-    let mainViewController = UINavigationController()
+    let mainViewController = UIViewController()
     
     let window = UIWindow(frame: UIScreen.main.bounds)
     self.window = window

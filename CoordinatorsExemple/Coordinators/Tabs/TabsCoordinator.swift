@@ -47,5 +47,18 @@ final class TabsCoordinator: TabCoordinator {
   // MARK: - Public Funcs
   func start() {
     self.tabBarController.viewControllers = coordinators.all().map({ $0.navigationController })
+    
+    let barItem = UIBarButtonItem(title: "Login", style: .done, target: self, action: #selector(showAuthentication))
+    self.tabBarController.navigationController?.navigationItem.rightBarButtonItem = barItem
   }
+//
+//  // MARK: - Actions
+//  @IBAction private func showDetail() {
+//    self.delegate?.showDetail()
+//  }
+//
+  @objc func showAuthentication() {
+    self.delegate?.showAuthentication()
+  }
+//  }
 }
